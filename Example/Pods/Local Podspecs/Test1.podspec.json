@@ -1,0 +1,68 @@
+{
+  "name": "Test1",
+  "version": "0.1.29",
+  "summary": "Test1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yyh321/Test1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yunhaoyu@gmail.com": "yuyunhao@tvmining.com"
+  },
+  "source": {
+    "git": "https://github.com/yyh321/Test1.git",
+    "tag": "0.1.29"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Test1/Classes/**/*.{h,m}",
+  "vendored_libraries": "Test1/Classes/libAdViewSDK.a",
+  "exclude_files": [
+    "Test1/Classes/Libs/TouchJSON/Extensions/NSDictionary_JSONExtensions.m",
+    "Test1/Classes/Libs/TouchJSON/Experimental/CJSONSerialization.m",
+    "Test1/Classes/Libs/TouchJSON/Experimental/CJSONDeserializer_BlocksExtensions.m",
+    "Test1/Classes/Libs/TouchJSON/Extensions/CDataScanner_Extensions.m",
+    "Test1/Classes/Libs/JSONKit/JSONKit.m",
+    "Test1/Classes/Libs/TouchJSON/CDataScanner.m",
+    "Test1/Classes/Libs/TouchJSON/JSON/CJSONScanner.m",
+    "Test1/Classes/Libs/TouchJSON/Experimental/CFilteringJSONSerializer.m",
+    "Test1/Classes/Libs/TouchJSON/Experimental/CJSONSerializedData.m",
+    "Test1/Classes/Libs/TouchJSON/JSON/CJSONSerializer.m",
+    "Test1/Classes/Libs/TouchJSON/JSON/CJSONDeserializer.m"
+  ],
+  "public_header_files": "Test1/Classes/**/*.h",
+  "frameworks": [
+    "AdSupport",
+    "CoreLocation",
+    "AddressBook",
+    "QuartzCore"
+  ],
+  "libraries": [
+    "c++",
+    "sqlite3",
+    "xml2",
+    "z"
+  ],
+  "subspecs": [
+    {
+      "name": "noarc",
+      "source_files": [
+        "Test1/Classes/Libs/TouchJSON/Extensions/NSDictionary_JSONExtensions.m",
+        "Test1/Classes/Libs/TouchJSON/Experimental/CJSONSerialization.m",
+        "Test1/Classes/Libs/TouchJSON/Experimental/CJSONDeserializer_BlocksExtensions.m",
+        "Test1/Classes/Libs/TouchJSON/Extensions/CDataScanner_Extensions.m",
+        "Test1/Classes/Libs/JSONKit/JSONKit.m",
+        "Test1/Classes/Libs/TouchJSON/CDataScanner.m",
+        "Test1/Classes/Libs/TouchJSON/JSON/CJSONScanner.m",
+        "Test1/Classes/Libs/TouchJSON/Experimental/CFilteringJSONSerializer.m",
+        "Test1/Classes/Libs/TouchJSON/Experimental/CJSONSerializedData.m",
+        "Test1/Classes/Libs/TouchJSON/JSON/CJSONSerializer.m",
+        "Test1/Classes/Libs/TouchJSON/JSON/CJSONDeserializer.m"
+      ],
+      "requires_arc": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+PODS:
+  - Test1 (0.1.29):
+    - Test1/noarc (= 0.1.29)
+  - Test1/noarc (0.1.29)
+
+DEPENDENCIES:
+  - Test1 (from `../`)
+
+EXTERNAL SOURCES:
+  Test1:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Test1: 1635fbe0f8107a4fd81002cc636ca66f6c86e4b1
+
+PODFILE CHECKSUM: 336f608d22ebecbb6d1af84873f04257b0cbc106
+
+COCOAPODS: 1.2.0
