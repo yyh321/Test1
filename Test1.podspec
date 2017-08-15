@@ -54,7 +54,7 @@ TODO: Add long description of the pod here.
   #,'UIKit','Foundation'
   s.frameworks = 'AdSupport','CoreLocation','AddressBook','QuartzCore'
   s.libraries = 'c++','sqlite3','xml2','z'
-  s.xcconfig = {'LIBRARY_SEARCH_PATHS' => '$(PROJECT_DIR)/Test1/Example/Test1/Classes/libAdViewSDK'}
+  s.xcconfig = {'LIBRARY_SEARCH_PATHS' => '$(PROJECT_DIR)/Test1/Classes/libAdViewSDK'}
 
   # s.dependency 'JSONKit'
   # s.dependency 'Reachability'
