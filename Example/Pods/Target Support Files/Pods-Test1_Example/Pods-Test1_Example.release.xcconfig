@@ -1,6 +1,7 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Test1"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) $(PROJECT_DIR)/Test1/Classes/libAdViewSDK
 OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Test1/Test1.framework/Headers"
 OTHER_LDFLAGS = $(inherited) -ObjC -framework "Test1"
 PODS_BUILD_DIR = $BUILD_DIR

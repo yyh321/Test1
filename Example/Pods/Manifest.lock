@@ -1,7 +1,7 @@
 PODS:
-  - Test1 (0.1.29):
-    - Test1/noarc (= 0.1.29)
-  - Test1/noarc (0.1.29)
+  - Test1 (0.1.33):
+    - Test1/noarc (= 0.1.33)
+  - Test1/noarc (0.1.33)
 
 DEPENDENCIES:
   - Test1 (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Test1: 1635fbe0f8107a4fd81002cc636ca66f6c86e4b1
+  Test1: 7aa3fcd81f2d3c8d17b797ce64f4869902fed0bb
 
 PODFILE CHECKSUM: 336f608d22ebecbb6d1af84873f04257b0cbc106
 
